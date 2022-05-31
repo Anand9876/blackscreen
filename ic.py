@@ -4,7 +4,7 @@ from cv2 import resize
 import numpy as np
 
 Video=cv2.VideoCapture(0)
-image=cv2.imread('minion.jpeg')
+image=cv2.imread('minion.jpg')
 
 while True:
     ret,frame=Video.read()
